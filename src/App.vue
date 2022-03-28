@@ -1,26 +1,56 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="wraper">
+    <div class="container py-3">
+      <ul class="nav nav-pills nav-justified px-1">
+        <li class="nav-item">
+          <router-link
+          class="nav-link"
+          to="/"
+          active-class="active">HOME</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link
+          class="nav-link"
+          to="/about"
+          active-class="active">ABOUT</router-link>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary"
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample">PROFILE</a>
+        </li>
+      </ul>    
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          <a href="https://twitter.com/ojousamanet" target="_blank" rel="noopener">@ojousamanet</a>.
+        </div>
+      </div>
+    </div>
+    <router-view></router-view>
+    <FooterComponens />
+  </div>
 </template>
 
+<style>
+</style>
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// @ is an alias to /src
+import FooterComponens from '@/components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FooterComponens
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

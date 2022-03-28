@@ -1,0 +1,24 @@
+:root{
+    --main-color:#3bbd90;
+}
+html{
+    background-color: var(--main-color);
+}
+#app{
+    font-family: 'Noto Sans JP', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    background-color:#2a292e;
+    .nav{
+        &-item{}
+        &-link{
+            color: var(--main-color);
+            &.active{
+                background-color: var(--main-color);
+                color: #fff;
+            }
+        }
+    }
+}
