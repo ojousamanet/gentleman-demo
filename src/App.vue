@@ -4,18 +4,18 @@
       <ul class="nav nav-pills nav-justified px-1">
         <li class="nav-item">
           <router-link
-          class="nav-link"
+          class="nav-link fw-bold"
           to="/"
           active-class="active">HOME</router-link>
         </li>
         <li class="nav-item">
           <router-link
-          class="nav-link"
+          class="nav-link fw-bold"
           to="/about"
           active-class="active">ABOUT</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn btn-primary"
+          <a class="nav-link fw-bold btn btn-primary"
           data-bs-toggle="offcanvas"
           href="#offcanvasExample"
           role="button"
