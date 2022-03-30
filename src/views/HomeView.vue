@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="container">
-      <div class="px-4 py-2">
+      <div class="px-5 py-2">
         <img alt="site logo" src="@/assets/men.svg">
       </div>
     </div>

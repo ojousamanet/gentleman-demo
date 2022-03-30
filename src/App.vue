@@ -60,9 +60,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-:root{
-    --main-color:#3bbd90;
-}
 html{
     background-color: var(--main-color);
 }
@@ -72,7 +69,6 @@ html{
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    background-color:#2a292e;
     .nav{
         &-item{}
         &-link{

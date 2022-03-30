@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <div class="container">
-      <div class="pt-3 pb-1">
+      <div class="pt-3 pb-1 text-center">
         <h1 class="fs-1 fw-bold text-white">{{ msg }}</h1>
       </div>
       <div class="text-start p-2 small">
