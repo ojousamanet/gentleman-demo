@@ -25,12 +25,16 @@
     </div>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">作者プロフィール</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
         <div>
-          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          風俗業界の裏方で店舗のサポートしてた人。今は転職して美容業界に転身。
+          自分のことを良客とか紳士とか自称する同性には共感性羞恥心がする人。<br>
+          ただ、良客育成には興味があるので、（自称ではなく）周りから評価される良客が増えるのは面白そう。<br>
+          どんな人を良客って言うの？清潔で、性病検査を受けていて、ルールを守れて、勘違いしなくて、親切で優しくて…<br>
+          それは普通のお客さんか<br>
           <a href="https://twitter.com/ojousamanet" target="_blank" rel="noopener">@ojousamanet</a>.
         </div>
       </div>
@@ -69,15 +73,15 @@ html{
     text-align: center;
     color: #2c3e50;
     background-color:#2a292e;
-}
-.nav{
-  &-item{}
-  &-link{
-      color: var(--main-color);
-      &.active{
-          background-color: var(--main-color);
-          color: #fff;
-      }
-  }
+    .nav{
+        &-item{}
+        &-link{
+            color: var(--main-color);
+            &.active{
+                background-color: var(--main-color);
+                color: #fff;
+            }
+        }
+    }
 }
 </style>

@@ -11,7 +11,7 @@
         </p>
       </div>
       <div class="p-2 d-grid gap-2">
-        <router-link to="/" class="btn btn-light btn-lg">
+        <router-link to="/exam" class="btn btn-light btn-lg">
           <span class="fw-bold text-dark">入会テストを受ける</span>
         </router-link>
       </div>
