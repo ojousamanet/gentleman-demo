@@ -55,7 +55,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 :root{
     --main-color:#3bbd90;
 }
@@ -69,15 +69,15 @@ html{
     text-align: center;
     color: #2c3e50;
     background-color:#2a292e;
-    .nav{
-        &-item{}
-        &-link{
-            color: var(--main-color);
-            &.active{
-                background-color: var(--main-color);
-                color: #fff;
-            }
-        }
-    }
+}
+.nav{
+  &-item{}
+  &-link{
+      color: var(--main-color);
+      &.active{
+          background-color: var(--main-color);
+          color: #fff;
+      }
+  }
 }
 </style>
