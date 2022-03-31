@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="container">
       <div class="pt-3 pb-1 text-center">
-        <h1 class="fs-1 fw-bold text-white">{{ msg }}</h1>
+        <h1 class="fw-bold text-white">{{ msg }}</h1>
       </div>
       <div class="text-start p-2 small">
         <p class="text-light fst-normal">風俗を利用する人間には2種類のタイプがいる。良客と良客以外。
@@ -11,9 +11,9 @@
         </p>
       </div>
       <div class="p-2 d-grid gap-2">
-        <router-link to="/exam" class="btn btn-light btn-lg">
+        <button type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           <span class="fw-bold text-dark">入会テストを受ける</span>
-        </router-link>
+        </button>
       </div>
     </div>
   </div>
@@ -30,8 +30,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+h1 {
+  font-size: calc(1.75rem + 1.5vw);
+  letter-spacing: 0.5rem;
 }
 ul {
   list-style-type: none;
