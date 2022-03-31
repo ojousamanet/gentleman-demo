@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 html{
     background-color: var(--main-color);
 }
@@ -79,5 +79,10 @@ html{
             }
         }
     }
+}
+.rounded{
+  &-xl{
+    border-radius: 10px;
+  }
 }
 </style>
