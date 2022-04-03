@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="container">
+    <div id="halo" class="container">
       <div class="px-5 py-2">
         <img class="px-2" alt="site logo" src="@/assets/men.svg">
       </div>
